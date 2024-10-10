@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1aff0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* Keskittää vaakasuunnassa */
+    align-items: center;      /* Keskittää pystysuunnassa */
+    height: 100vh;            /* Varmistaa, että elementit ovat keskellä koko näkymän korkeudella */
+    flex-direction: column;   /* Asettaa elementit pystysuoraan */
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+}
+
+input, output {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+output {
+    display: block;
+    font-weight: bold;
+}
+
+
